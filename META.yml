@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WebService-LinkShare
-version:            0.01
+version:            0.02
 abstract:           Interface to the LinkShare web API
 author:
     - Fred Moyer <phred@redhotpenguin.com>
@@ -10,7 +10,8 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    XML::LibXML:  0
 no_index:
     directory:
         - t
